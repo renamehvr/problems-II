@@ -103,6 +103,9 @@ System.out.println("************ Printing Sum of all Sub-arrays sum in O(N) ****
             tsum+=total;
         }
         System.out.print("Sum of all Sub-arrays sum is :"+tsum);
+        System.out.println();
+        System.out.println("**** if len is fixxed for subarray***************");
+
 
     }
     }
