@@ -97,8 +97,8 @@ System.out.println("************** Printing Sum of all Sub-arrays sum in O(N^2) 
 System.out.println("************ Printing Sum of all Sub-arrays sum in O(N) ************  ");
         long left=0;long right=0; long total = 0 ; long tsum=0;
         for(int i=0 ; i < A.length ; i++){
-            left=i+1;
-            right=N-i;
+            left=i+1;             //ending at ith index
+            right=N-i;             //starting from ith index
             total = left*right*A[i];
             tsum+=total;
         }
