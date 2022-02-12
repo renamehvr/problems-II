@@ -40,7 +40,6 @@ public class commonOf2Array {
         HashMap<Integer,Integer> map = new HashMap<>();
 
         for (int i = 0; i <N ; i++) {
-
             if (map.containsKey(A.get(i))) {
                 map.put( A.get(i) , map.get(A.get(i))+1);
             }
